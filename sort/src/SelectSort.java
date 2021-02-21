@@ -10,10 +10,11 @@ public class SelectSort {
         for (int i = 0; i < N; i++) {
             int min = i; //最小元素索引
             for (int j = i+1; j < N; j++) {
-                if()
+                if(SortMethod.less(a[j],a[min])){
+                    min = j;
+                }
             }
-
+            SortMethod.exchange(a,i,min);
         }
-
     }
 }
