@@ -1,4 +1,3 @@
-import jdk.jfr.StackTrace;
 import org.junit.Test;
 
 /**
@@ -12,6 +11,13 @@ public class SortTest {
         int[] num = {2,4,22,56,34,75,44,2,673,39};
         SelectSort.sort(num);
         SortMethod.show(num);
+    }
+    @Test
+    public void InsertSortTest(){
+        int[] num = {2,4,22,56,34,75,44,2,673,39};
+        InsertSort.sort(num);
+        SortMethod.show(num);
+
     }
 
 }
