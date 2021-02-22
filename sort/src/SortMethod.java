@@ -13,8 +13,8 @@ public class SortMethod {
         a[j] = temp;
     }
     public static void show(int[] a){
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
+        for (int value : a) {
+            System.out.print(value + " ");
         }
     }
 
